@@ -1,0 +1,87 @@
+header{
+    height:100vh;
+}
+
+.banner{
+    background-image: url(../../assets/img/Banner-bg.jpg);
+    background-size: cover;
+    height:625px;
+}
+
+.main-menu{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 105px;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9;
+    height:105px;
+    width:100%;
+}
+
+.logo a{
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    text-shadow: rgb(3, 3, 3) 0px 2px 5px;
+}
+
+.logo h1{
+    padding: 30px 120px;
+}
+
+span{
+    color:#ff9000;
+}
+
+.nav-menu ul{
+    list-style: none;
+    margin-left: 500px;
+    margin-top: -80px;
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding:30px 20px;
+}
+
+.nav-menu li{
+    display:inline-block;
+    padding:20px 30px;
+}
+
+.nav-menu li a:hover{
+    border-bottom: solid 5px #ff9000;
+	background: rgba(56,87,122,1);
+}
+
+.main-content{
+    padding:250px 120px;
+    color:#fff;
+}
+
+.main-content h2{
+    font-size: 30px;
+    font-weight:700;
+}
+
+.main-content h1{
+    font-weight: 600;
+    color:#ff9000;
+}
+
+.main-content p{
+    margin-top: 20px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 1.4rem;
+    word-spacing: 2px;
+}
+
+.row{
+    height: 74px;
+    width: 100%;
+    background: rgba(249,250,251,1);
+    background: linear-gradient(to bottom, rgba(249,250,251,1) 0%, rgba(249,250,251,1) 0%, rgba(225,228,231,1) 100%);
+}

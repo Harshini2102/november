@@ -1,0 +1,133 @@
+#contact{
+    background-image: url(../../assets/img/Contact-bg.jpg);
+    /*padding:100px 0px 200px 150px;*/
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.contact-title{
+    text-align: center;
+    color:#fff;
+}
+
+.contact-title h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.contact-title p{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.line{
+    border: solid 1px #ff9408;
+    width: 250px;
+    margin: auto;
+    background-color: #ff9408;
+}
+
+.Map { position: relative; z-index: 1; width: 100%; overflow: hidden; box-shadow: 0px 1px 12px 3px #242424;}
+.Map #GoogleMap { height: 399px; }
+
+.Map{
+    height:60vh;
+}
+
+.contact-form{
+    background-image: url(../../assets/img/Services-bg.jpg);
+    height:70vh;
+    padding:100px;
+}
+
+form{
+    display:inline-block;
+    width:50%;
+    margin-right: 40px;
+}
+
+input , textarea {
+    width:95%;
+    height:50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+textarea{
+    width:94%;
+    height:150px;
+    padding:10px 10px;
+}
+
+.submit-btn{
+    width:98%;
+    height:50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    color:#fff;
+    font-size: large;
+    background-color: #ff9408;
+    border:none;
+}
+
+.submit-btn:focus , input:focus , textarea:focus{
+    outline:none;
+}
+
+.get-in-touch{
+    display:inline-block;
+}
+
+.get-in-touch h1{
+    color:#f88e04;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.get-in-touch p{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color:#fff;
+}
+
+.get-in-touch .address{
+    padding: 0px 0px 27px 65px;
+    margin-left: 3px;
+    font-size: 14px;
+    color: #ebedf1;
+    font-weight: 400;
+    background: url(../../assets/img/location-icn.png) left 4px no-repeat;
+    line-height: 24px;
+}
+
+.get-in-touch .contact{
+    padding: 0px 0px 27px 65px;
+    margin-left: 3px;
+    font-size: 14px;
+    color: #ebedf1;
+    font-weight: 400;
+    background: url(../../assets/img/phone-icn.png) left 4px no-repeat;
+    line-height: 24px;
+}
+
+.get-in-touch .mail-icon{
+    padding: 0px 0px 27px 65px;
+    margin-left: 3px;
+    font-size: 14px;
+    color: #ebedf1;
+    font-weight: 400;
+    background: url(../../assets/img/mail-icn.png) left 4px no-repeat;
+    line-height: 24px;
+}
+
+.get-in-touch img{
+    padding-top: 40px;
+    padding-right: 20px;
+}

@@ -1,0 +1,92 @@
+#service{
+    padding:100px 100px 100px 120px;
+    height:100vh;
+    background-image: url(../../assets/img/Services-bg.jpg);
+}
+
+.service-title{
+    text-align: center;
+    color:#fff;
+}
+
+.service-title h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.service-title p{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.line{
+    border: solid 1px #ff9408;
+    width: 250px;
+    margin: auto;
+    background-color: #ff9408;
+}
+
+.service-content{
+    margin-top: 100px;
+}
+
+.service-content img{
+    padding-right: 15px;
+}
+
+.service-content ul{
+    list-style: none;
+}
+
+.service-content li{
+    display: inline-block;
+}
+
+.development , .design , .concept , .system{
+    padding: 50px 50px 165px 50px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+.development{
+    background: url(../../assets/img/Development-bg.jpg) no-repeat;
+}
+
+.design{
+    background: url(../../assets/img/desgin-bg.jpg) no-repeat;
+}
+
+.concept{
+    background: url(../../assets/img/concept-bg.jpg) no-repeat;
+}
+
+.system{
+    background: url(../../assets/img/systam-bg.jpg) no-repeat;
+}
+
+
+.service-content ul li a h4{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.service-content ul .development a h4{
+    color: #03a4df;
+}
+
+.service-content ul .design a h4{
+    color: #ffab3f;
+}
+
+.service-content ul .concept a h4{
+    color: #ae382d;
+}
+
+.service-content ul .system a h4{
+    color: #5e5f61;
+}
+

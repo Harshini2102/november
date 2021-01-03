@@ -1,0 +1,145 @@
+#pricing{
+    height:100vh;
+    padding:100px 100px 200px 100px;
+    background: #ececec;
+}
+
+.procing-title{
+    text-align: center;
+}
+
+.procing-title h1{
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.procing-title p{
+    color:#979797;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.line{
+    border: solid 1px #ff9408;
+    width: 250px;
+    margin: auto;
+    background-color: #ff9408;
+    margin-bottom: 50px;
+}
+
+
+.Pricingside ul{
+    list-style: none;
+}
+
+.Pricingside li{
+    display:inline-block;
+    background-color: #fff;
+}
+
+.Basic { 
+    width: 55px; 
+    float: left; 
+    display: table; 
+    height: 103px; 
+    background: #ff9408; 
+}
+
+.Basic h5 { 
+    display: table-cell; 
+    vertical-align: middle; 
+    font-size: 17px;
+     color: #2d2d2d; 
+     font-family: 'Oswald', sans-serif; 
+     font-weight: 300; 
+     text-transform: uppercase; 
+    transform: rotate(270deg);
+    text-align: center;
+ }
+
+ .Dollar { 
+     padding: 22px 0px 30px 0px; 
+     width: 170px; float: left; 
+     background: #2d2d2d;
+}
+
+ .Dollar h2 { 
+     font-size: 34px; 
+     color: #ff9408; 
+     font-family: 'Oswald', sans-serif; 
+     font-weight: 400; 
+     letter-spacing: 1px; 
+}
+
+ .Band { 
+     padding: 1px 30px; 
+     width: 120px; 
+     float: left; 
+     background: url(../../assets/img/divider.png) right 16px no-repeat;
+}
+
+ .Band p { 
+     font-size: 16px; 
+     color: #979797; 
+     margin-top: 20px; 
+     font-family: 'Oswald', sans-serif; 
+     font-weight: 400; 
+     text-transform: uppercase; 
+     line-height: 20px; 
+}
+
+ .Band p span { display: block; }
+
+ .Band.last { background: none; }
+
+ .Order {
+     width: 147px;
+      float: left; 
+      display: table; 
+      height: 103px; 
+ }
+
+ .Order a { 
+     font-size: 17px; 
+     color: #fff; 
+     font-family: 'Oswald', sans-serif;
+      font-weight: 400; 
+      text-decoration: none;  
+      display: table-cell; 
+      vertical-align: middle; 
+      text-transform: uppercase;  
+      background: #2d2d2d; 
+}
+
+ li:hover .Basic {  
+     background: #2d2d2d; 
+}
+
+ li:hover .Basic h5 { 
+     color: #fff; 
+}
+
+ li:hover .Band { 
+     background: #2d2d2d url(../../assets/img/divider-black.png) right 16px no-repeat; 
+}
+
+ li:hover .Band p { 
+     color: #fff; 
+}
+
+ li:hover .Dollar { 
+     background: #ff9408; 
+     color: #fff; 
+}
+
+ li:hover .Dollar h2 { 
+     color: #fff;
+ }
+
+ li:hover .Order a { 
+     background: #ff9408; 
+     color: #fff;
+}
